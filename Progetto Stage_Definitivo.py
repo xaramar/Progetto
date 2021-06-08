@@ -171,7 +171,6 @@ def val_fitness(TS_cromo): #TS_cromo è la lista delle coppie di nodi collegati 
         dens_gene = ch.charikar(gene[0],gene[1])
         li_dens.append(dens_gene)
         dens += dens_gene
-    #print('cazzu cazzu', dens)
     return dens
     # return li_dens # Questo nel caso si volesse il vettore delle densità da sommare in seguito
 
